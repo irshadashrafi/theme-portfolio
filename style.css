@@ -152,3 +152,19 @@ main button{
     font-weight: bold;
     cursor: pointer;
 }
+
+@media (max-width:768px){
+    nav ul{
+        flex-direction: column;
+        display: none;
+    }
+
+    nav ul.active{
+        display: flex;
+    }
+
+    .menu-toggle{
+        display:block;
+        cursor:pointer;
+    }
+}
